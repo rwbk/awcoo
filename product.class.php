@@ -15,9 +15,9 @@
     
     // Private Variables of a Product
 
-    private $code = array();                    // ID of the Product
-    private $name = array();                    // Human readable name of the Product
-    private $price = array();                   // Price of the Product
+    private $code = '';                    // ID of the Product
+    private $name = '';                    // Human readable name of the Product
+    private $price = '';                   // Price of the Product
 
     // Constructor is called upon creating the Object, 
     function __construct($code, $name, $price) 
